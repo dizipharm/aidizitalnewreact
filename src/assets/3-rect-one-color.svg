@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="471px" height="651px" viewBox="0 0 471 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Pattern_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-16.7%" y="-5.9%" width="133.3%" height="115.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="50" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="14.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.48627451   0 0 0 0 0.623529412   0 0 0 0 0.678431373  0 0 0 0.10045856 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="27.5229531%" y1="94.5398448%" x2="72.4121686%" y2="5.3170909%" id="linearGradient-2">
+            <stop stop-color="#F54703" offset="0%"></stop>
+            <stop stop-color="#FAC902" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-16.7%" y="-13.2%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="50" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="14.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.48627451   0 0 0 0 0.623529412   0 0 0 0 0.678431373  0 0 0 0.10045856 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Protofire_desktop" transform="translate(-17.000000, -6279.000000)" fill-rule="nonzero">
+            <g id="Pattern_1" transform="translate(252.500000, 6594.000000) rotate(-360.000000) translate(-252.500000, -6594.000000) translate(18.000000, 6270.000000)">
+                <g id="Group-21" filter="url(#filter-1)">
+                    <path d="M107,93 C99.2680135,93 93,99.2680135 93,107 L93,184.446566 C93,192.178552 99.2680135,198.446566 107,198.446566 L184.446566,198.446566 C192.178552,198.446566 198.446566,192.178552 198.446566,184.446566 L198.446566,107 C198.446566,99.2680135 192.178552,93 184.446566,93 L107,93 Z M107,43 L184.446566,43 C219.79279,43 248.446566,71.653776 248.446566,107 L248.446566,184.446566 C248.446566,219.79279 219.79279,248.446566 184.446566,248.446566 L107,248.446566 C71.653776,248.446566 43,219.79279 43,184.446566 L43,107 C43,71.653776 71.653776,43 107,43 Z" id="Rectangle-3-Copy-5" fill="url(#linearGradient-2)" transform="translate(145.723283, 145.723283) rotate(-315.000000) translate(-145.723283, -145.723283) "></path>
+                    <path d="M107,450 C99.2680135,450 93,456.268014 93,464 L93,541.446566 C93,549.178552 99.2680135,555.446566 107,555.446566 L184.446566,555.446566 C192.178552,555.446566 198.446566,549.178552 198.446566,541.446566 L198.446566,464 C198.446566,456.268014 192.178552,450 184.446566,450 L107,450 Z M107,400 L184.446566,400 C219.79279,400 248.446566,428.653776 248.446566,464 L248.446566,541.446566 C248.446566,576.79279 219.79279,605.446566 184.446566,605.446566 L107,605.446566 C71.653776,605.446566 43,576.79279 43,541.446566 L43,464 C43,428.653776 71.653776,400 107,400 Z" id="Rectangle-3-Copy-7" fill="#FFFFFF" transform="translate(145.723283, 502.723283) rotate(-315.000000) translate(-145.723283, -502.723283) "></path>
+                </g>
+                <g id="Group-21" filter="url(#filter-3)" transform="translate(323.500000, 323.000000) rotate(-270.000000) translate(-323.500000, -323.000000) translate(178.000000, 177.500000)" fill="#FFFFFF">
+                    <path d="M107,93 C99.2680135,93 93,99.2680135 93,107 L93,184.446566 C93,192.178552 99.2680135,198.446566 107,198.446566 L184.446566,198.446566 C192.178552,198.446566 198.446566,192.178552 198.446566,184.446566 L198.446566,107 C198.446566,99.2680135 192.178552,93 184.446566,93 L107,93 Z M107,43 L184.446566,43 C219.79279,43 248.446566,71.653776 248.446566,107 L248.446566,184.446566 C248.446566,219.79279 219.79279,248.446566 184.446566,248.446566 L107,248.446566 C71.653776,248.446566 43,219.79279 43,184.446566 L43,107 C43,71.653776 71.653776,43 107,43 Z" id="Rectangle-3-Copy-5" transform="translate(145.723283, 145.723283) rotate(-315.000000) translate(-145.723283, -145.723283) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
