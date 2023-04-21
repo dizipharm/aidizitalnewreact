@@ -17,7 +17,7 @@ const Trace2 = () => {
   return (
     <>
    
-    <div name='home' className='w-full h-screen relative bg-[white] pt-8 font-sans  flex flex-col justify-between ' >
+    <div name='home' className='w-full  relative bg-gray-100 pt-8 font-sans  flex flex-col justify-between ' >
         <h1 className=' text-4xl font-bold text-center '> Supply <span className=' text-[#17b1b1]'>Chain</span></h1>
         <div className='grid md:grid-cols-2  max-w-[1240px] '>
             <div className='flex flex-col  justify-center md:items-start w-full px-2 py-8 pl-12 pt-4'>
@@ -29,17 +29,11 @@ In Pharma Supply Chains For Market Intelligence</h1>
                  </p>
                 <p className='text-lg mt-2 text-black '> Our team of experts works closely with our clients to understand their business requirements, identify areas where blockchain can add value, and design custom blockchain solutions from scratch. We help businesses integrate their existing IT systems with external blockchains, enabling secure and efficient data transfer and improving the overall performance of their enterprise ecosystems.
                  </p>
-                <div className='flex gap-2 pt-4'>
-{/*                   
-                <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white"  >
-              Why AI Dizital <BsArrowRight className=' m-1 text-white'/>
-          </button>
-          <Link to='/contact'>
-          <button type="button" className="btn btn-outline text-white ">
-            Book a Consultation  <BsArrowRight className=' ml-4'/>
+                 <Link to='https://www.tracepharm.com/'>
+          <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white">
+            Know More  <BsArrowRight className=' ml-4 mt-1'/>
         </button></Link>
-           */}
-                </div>
+             
             </div>
            <div className=' pt-4' >
             <img src={Mill} alt='Mill'/>

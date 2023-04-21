@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='w-full mt-24 bg-white  py-y px-2'>
+    <div className='w-full mt-24 bg-white  py-y px-2 '>
        <footer className="footer p-10 bg-white text-base-content">
   <div>
     <span className="footer-title"><img className=' h-10 pl-2' src={Logo} alt='logo' /></span> 
