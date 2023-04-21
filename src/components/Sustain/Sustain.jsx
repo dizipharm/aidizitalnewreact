@@ -25,12 +25,12 @@ const Sustain = () => {
                 </p>
                 <div className='flex gap-2 pt-4'>
                   
-                <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white"  >
+                {/* <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white"  >
               Why AI Dizital <BsArrowRight className=' m-1 text-white'/>
-          </button>
+          </button> */}
           <Link to='/contact'>
-          <button type="button" className="btn btn-outline text-white ">
-            Book a Consultation  <BsArrowRight className=' ml-4'/>
+          <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white ">
+            Get a Free Consultancy  <BsArrowRight className=' m-1 text-white'/>
         </button></Link>
           
                 </div>

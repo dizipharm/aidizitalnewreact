@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
+import Nft2 from './Nft2'
 
 
 const Nft = () => {
@@ -40,6 +41,7 @@ const Nft = () => {
            
         </div>
     </div>
+    <Nft2/>
     <Footer/>
     </>
   )
