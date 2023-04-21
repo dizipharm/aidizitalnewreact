@@ -168,7 +168,7 @@ const Navbar = () => {
      <div className="px-6 flex n items-center w-full h-full border-t border-gray-300">
         <div className="flex items-center">
           {/* <Link to='/'><img className=" h-8 " src={Logo} alt="/logo" /></Link> */}
-          <h1 className=" lg:text-xl font-semibold "> AiDiZital </h1>
+          <h1 className=" lg:text-xl font-semibold font-serif mt-4 "> AiDiZital </h1>
         </div>
         <div className=" mr-12">
           <ul className="hidden md:flex text-black">

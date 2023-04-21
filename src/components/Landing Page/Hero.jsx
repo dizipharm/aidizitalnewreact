@@ -19,12 +19,15 @@ const Hero = () => {
                 <p className='text-xl mt-2 text-white'> We are helping innovate startups to change how the world lives and works.
                 </p>
                 <div className='flex gap-2 pt-4'>
+                  
                 <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white"  >
               Why AI Dizital <BsArrowRight className=' m-1 text-white'/>
           </button>
+          <Link to='/contact'>
           <button type="button" className="btn btn-outline text-white ">
             Book a Consultation  <BsArrowRight className=' ml-4'/>
-        </button>
+        </button></Link>
+          
                 </div>
             </div>
            {/* <div className=' mt-40' >

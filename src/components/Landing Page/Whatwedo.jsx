@@ -9,10 +9,10 @@ import My3 from "../../assets/center.jpg";
 
 const Whatwedo = () => {
   return (
-    <div className="w-full my-32">
+    <div name='expertise' className="w-full my-32">
       <div className="max-w-[1240px] mx-auto px-2">
         <h2 className="text-4xl font-bold text-center p-1 sm:py-8 md:px-12 pt-40">
-          What We Do
+         Our Expertise
         </h2>
 
         <div className=" grid grid-flow-row grid-rows-3 sm:grid-flow-col pt-4 gap-12 justify-center ">
