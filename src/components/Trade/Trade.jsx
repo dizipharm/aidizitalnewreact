@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
+import Trade2 from './Trade2'
 
 
 const Trade = () => {
@@ -39,6 +40,7 @@ const Trade = () => {
            
         </div>
     </div>
+    <Trade2/>
     <Footer/>
     </>
   )
