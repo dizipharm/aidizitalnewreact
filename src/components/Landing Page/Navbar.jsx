@@ -40,7 +40,7 @@ const Navbar = () => {
       label: "Consultancy",
       sublabel: "The Comlete solution for running your operations",
       icon: <MdQrCodeScanner />,
-      link: "/accessories",
+      link: "/consultancy",
 
     },
     {

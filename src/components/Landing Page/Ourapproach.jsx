@@ -12,7 +12,7 @@ const Ourapproach = () => {
   return (
     <div className="w-full  bg-gray-100 flex flex-col justify-between ">
       <section className=" ">
-        <div className=" container">
+        <div className=" ">
           <div className=" flex gap-4 justify-center px-40 mt-8 ">
             <div>
               <h2 className=" text-5xl font-bold col-span-3">Our Approach</h2>
