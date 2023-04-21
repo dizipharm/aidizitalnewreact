@@ -60,7 +60,7 @@ const Navbar = () => {
       label: "Tracepharm",
       sublabel: "The Comlete solution for running your operations",
       icon: <MdQrCodeScanner />,
-      link: "/accessories",
+      link: "/tracepharm",
 
     },
     {
@@ -68,7 +68,7 @@ const Navbar = () => {
       label: "Serialization & Aggregation",
       sublabel: "Smart accessories for your Smart Scanner",
       icon: <TiBatteryFull />,
-      link: "/accessories",
+      link: "https://www.tcubeai.com/",
 
     },
    
@@ -80,7 +80,7 @@ const Navbar = () => {
       label: " Supply Chain",
       sublabel: "The Comlete solution for running your operations",
       icon: <MdQrCodeScanner />,
-      link: "/allfeatures",
+      link: "/tracepharm",
 
     },
     {
@@ -88,7 +88,7 @@ const Navbar = () => {
       label: "Sustainability",
       sublabel: "Smart accessories for your Smart Scanner",
       icon: <AiOutlineBarcode />,
-      link: "/allfeatures",
+      link: "/sustainability",
 
     },
     {

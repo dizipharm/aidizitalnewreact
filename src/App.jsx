@@ -7,6 +7,8 @@ import Contact from './components/Pages/Contact'
 import Features from './components/Pages/Features'
 import Price from './components/Pages/Price'
 import Privacystatement from './components/Pages/Privacystatement'
+import Tracepharm from './components/Tracepharm/Tracepharm'
+import Sustain from './components/Sustain/Sustain'
 
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
       <Route path='/accessories' element={<Accessories/>}/>
       <Route path='/pricing' element={<Price/>}/>
       <Route path='/privacystatement' element={<Privacystatement/>}/>
+      <Route path='/tracepharm' element={<Tracepharm/>}/>
+      <Route path='/sustainability' element={<Sustain/>}/>
       </Routes>
       </Router>
   )
