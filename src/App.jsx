@@ -9,6 +9,8 @@ import Price from './components/Pages/Price'
 import Privacystatement from './components/Pages/Privacystatement'
 import Tracepharm from './components/Tracepharm/Tracepharm'
 import Sustain from './components/Sustain/Sustain'
+import Nft from './components/NFT Marlet Place/Nft'
+import Trade from './components/Trade/Trade'
 
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
       <Route path='/privacystatement' element={<Privacystatement/>}/>
       <Route path='/tracepharm' element={<Tracepharm/>}/>
       <Route path='/sustainability' element={<Sustain/>}/>
+      <Route path='/nftmarket' element={<Nft/>}/>
+      <Route path='/trade' element={<Trade/>}/>
       </Routes>
       </Router>
   )

@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
+import Trace2 from './Trace2'
 
 
 const Tracepharm = () => {
@@ -40,6 +41,7 @@ const Tracepharm = () => {
            
         </div>
     </div>
+    <Trace2/>
     <Footer/>
     </>
   )

@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
+import Section2 from './Section2'
 
 
 const Sustain = () => {
@@ -40,6 +41,7 @@ const Sustain = () => {
            
         </div>
     </div>
+    <Section2/>
     <Footer/>
     </>
   )

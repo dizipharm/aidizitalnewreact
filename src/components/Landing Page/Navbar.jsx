@@ -96,7 +96,7 @@ const Navbar = () => {
       label: "NFT marketplaces",
       sublabel: "Barcode label printers from inFlow",
       icon: <AiOutlinePrinter />,
-      link: "/allfeatures",
+      link: "/nftmarket",
 
     },
     {
@@ -104,7 +104,7 @@ const Navbar = () => {
       label: "Art & Fairtrade",
       sublabel: "Barcode label printers from inFlow",
       icon: <AiOutlinePrinter />,
-      link: "/allfeatures",
+      link: "/trade",
 
     },
    
@@ -140,7 +140,7 @@ const Navbar = () => {
       label: "Contact Us",
       sublabel: "Barcode label printers from inFlow",
       icon: <AiOutlinePrinter />,
-      link: "/allfeatures",
+      link: "/contact",
 
     },
    
