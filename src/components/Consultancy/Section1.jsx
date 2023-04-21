@@ -8,6 +8,7 @@ import {
 import Footer from "../Landing Page/Footer";
 import Navbar from "../Landing Page/Navbar";
 import Section2 from "./Section2";
+import Section3 from "./Section3";
 
 const Section1 = () => {
   return (
@@ -42,6 +43,7 @@ const Section1 = () => {
       </div>
     </div>
     <Section2/>
+    <Section3/>
     <Footer/>
     </>
   );
