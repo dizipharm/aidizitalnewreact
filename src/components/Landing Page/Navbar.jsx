@@ -116,7 +116,7 @@ const Navbar = () => {
       label: " About AiDiZital",
       sublabel: "The Comlete solution for running your operations",
       icon: <MdQrCodeScanner />,
-      link: "/allfeatures",
+      link: "/about",
 
     },
     {
@@ -124,7 +124,7 @@ const Navbar = () => {
       label: "Team",
       sublabel: "Smart accessories for your Smart Scanner",
       icon: <AiOutlineBarcode />,
-      link: "/allfeatures",
+      link: "/team",
 
     },
     {

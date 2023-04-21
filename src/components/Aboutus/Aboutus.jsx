@@ -1,108 +1,49 @@
-import React from "react";
-import { AiOutlineCheck } from "react-icons/ai";
-import { CiPaperplane } from "react-icons/ci";
-import Footer from "../Landing Page/Footer";
+import React from 'react'
+import {
+  BsArrowRight,
+   
+} from 'react-icons/bs'
+import {CiPaperplane} from 'react-icons/ci'
+import Mill from '../../assets/millets1.jpg'
+import {Link} from 'react-router-dom'
+import Banner1 from '../../assets/banner1.jpg'
+import Navbar from '../Landing Page/Navbar'
+import Footer from '../Landing Page/Footer'
+
 
 const Aboutus = () => {
   return (
-    <div name="features" className="w-full h-screen bg-white flex flex-col ">
-      <div className=" m-32 text-5xl  font-bold text-center ">
-        <h1>About Us</h1>
-      </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 -mt-8  ">
-        <div className="flex">
-          <div>
-            <AiOutlineCheck className="w-7 mr-4 text-green-600" />
-          </div>
-          <div>
-            <p className="text-lg pt-2 pb-4">
-              We challenge ourselves to simply the complexity and deliver the
-              best possible solution to your pain problems with a value
-              differentiation, we can help power your Success.
-            </p>
-          </div>
-        </div>
-        <div className="flex">
-          <div>
-            <AiOutlineCheck className="w-7 mr-4 text-green-600" />
-          </div>
-          <div>
-            <p className="text-lg pt-2 pb-4">
-              We intend to provide an end to end range of Information Technology
-              Services and Solutions in Supply Chain, Regulatory, Compliance,
-              Quality and Sustainable needs .
-            </p>
-          </div>
-        </div>
-        <div className="flex">
-          <div>
-            <AiOutlineCheck className="w-7 mr-4 text-green-600" />
-          </div>
-          <div>
-            <p className="text-lg pt-2 pb-4">
-              What we bring to the table are the capabilities of Industry Domain
-              Leaders and Information Technology Experts who worked for fortune
-              100 companies with a long track record of delivering several
-              mission critical Informational Technology projects seamlessly
-              around the globe and worked closely with C level Executive
-              Business Leaders .
-            </p>
-          </div>
-        </div>
-        <div className="flex">
-          <div>
-            <AiOutlineCheck className="w-7 mr-4 text-green-600" />
-          </div>
-          <div>
-            <p className="text-lg pt-2 pb-4">
-              We believe our combined experience in Life Sciences –
-              Pharmaceutical Domain and abreast with latest IT technologies , we
-              can work towards strengthening and enabling your organization
-              business roadmap deliver the business value at velocity and
-              reasonable cost to all stakeholders.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className=" m-8 text-2xl    ">
-        <h3 className=" font-bold ">Our Focus:</h3>
-        <div className=" flex flex-col">
-          <p className="text-lg pt-2 pb-4">
-            Bring together specialists from Life Sciences and Sustainability
-            Domains and Technologists who can understand your needs:
-          </p>
-          <ul className=" flex flex-col text-lg  font-semibold -mt-3 ">
-            <div className=" flex">
-              <AiOutlineCheck className="w-7 mt-5 ml-2  text-green-600" />{" "}
-              <li>End to End</li>
+    <>
+    <Navbar/>
+    <div name='home' className='w-full h-screen relative bg-[url("./assets/abot_bg_img.jpg")] bg-[50%]   bg-no-repeat bg-cover flex flex-col justify-between ' >
+        <div className='grid md:grid-cols-2  max-w-[1240px] m-auto'>
+            <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
+                {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
+                <h1 className='py-3 mt-20 text-3xl md:text-5xl font-bold text-white flex flex-col'>About Us </h1>
+                {/* <p className='text-xl mt-2 text-white'> We are helping Start-Up's with their dApps challenges in crypto-native communities, NFT platforms & marketplaces, and DAOs.
+                </p> */}
+                <div className='flex gap-2 pt-4'>
+                  
+                {/* <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white"  >
+              Why AI Dizital <BsArrowRight className=' m-1 text-white'/>
+          </button> */}
+          {/* <Link to='/contact'>
+          <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white ">
+            Book a Consultation  <BsArrowRight className=' ml-4'/>
+        </button></Link> */}
+          
+                </div>
             </div>
-            <div className=" flex">
-             
-              <AiOutlineCheck className="w-7 mt-5 ml-2 text-green-600" />{" "}
-              <li> Translate into Requirements</li>
-            </div>
-            <div className=" flex">
-              
-              <AiOutlineCheck className="w-7 mt-5 ml-2 text-green-600" />{" "}
-              <li>Lay a Roadmap for Alignment</li>
-            </div>
-            <div className=" flex">
-              
-              <AiOutlineCheck className="w-7 mt-5 ml-2 text-green-600" />
-              <li>
-                Be Agile to deliver the functionalities at reasonable cost with
-                less friction and create a value to the business at velocity .
-              </li>
-            </div>
-          </ul>
+           {/* <div className=' mt-40' >
+            <img src={Mill} alt='Mill'/>
+           </div> */}
+           
         </div>
-      </div>
-      <div className=" text-xl text-center mt-4 font-bold">
-        <h3>Partnering to power and enable all around Success!</h3>
-      </div>
-      <Footer/>
     </div>
-  );
-};
+  
+    <Footer/>
+    </>
+  )
+}
 
-export default Aboutus;
+export default Aboutus

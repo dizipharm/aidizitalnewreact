@@ -12,6 +12,7 @@ import Sustain from './components/Sustain/Sustain'
 import Nft from './components/NFT Marlet Place/Nft'
 import Trade from './components/Trade/Trade'
 import Section1 from './components/Consultancy/Section1'
+import Team from './components/Team/Team'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
       <Route path='/nftmarket' element={<Nft/>}/>
       <Route path='/trade' element={<Trade/>}/>
       <Route path='/consultancy' element={<Section1/>}/>
+      <Route path='/team' element={<Team/>}/>
       </Routes>
       </Router>
   )
