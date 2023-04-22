@@ -48,7 +48,7 @@ const Navbar = () => {
       label: "Innovation & Prototyping",
       sublabel: "Smart accessories for your Smart Scanner",
       icon: <TiBatteryFull />,
-      link: "/accessories",
+      link: "/innovation",
 
     },
    
