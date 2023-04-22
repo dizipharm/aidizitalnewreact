@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
+import New from './new'
 
 
 const Aboutus = () => {
@@ -16,7 +17,7 @@ const Aboutus = () => {
     <>
     <Navbar/>
     <div name='home' className='w-full h-screen relative bg-[url("./assets/abot_bg_img.jpg")] bg-[50%]   bg-no-repeat bg-cover flex flex-col justify-between ' >
-        <div className='grid md:grid-cols-2  max-w-[1240px] m-auto'>
+        <div className=' max-w-[1240px] m-auto'>
             <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
                 {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
                 <h1 className='py-3 mt-20 text-3xl md:text-5xl font-bold text-white flex flex-col'>About Us </h1>
@@ -40,7 +41,7 @@ const Aboutus = () => {
            
         </div>
     </div>
-  
+  <New/>
     <Footer/>
     </>
   )
