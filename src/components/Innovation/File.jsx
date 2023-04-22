@@ -12,6 +12,7 @@ import Footer from '../Landing Page/Footer'
 import File2 from './File2'
 import File3 from './File3'
 import File4 from './File4'
+import File5 from './File5'
 
 const File = () => {
   return (
@@ -45,6 +46,7 @@ const File = () => {
     <File2/>
     <File3/>
     <File4/>
+    <File5/>
     <Footer/>
     </>
   )
