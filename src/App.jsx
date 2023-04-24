@@ -14,6 +14,7 @@ import Trade from './components/Trade/Trade'
 import Section1 from './components/Consultancy/Section1'
 import Team from './components/Team/Team'
 import File from './components/Innovation/File'
+import Careers from './components/Careers/Careers'
 
 
 const App = () => {
@@ -34,6 +35,8 @@ const App = () => {
       <Route path='/consultancy' element={<Section1/>}/>
       <Route path='/team' element={<Team/>}/>
       <Route path='/innovation' element={<File/>}/>
+      <Route path='/careers' element={<Careers/>}/>
+
       </Routes>
       </Router>
   )

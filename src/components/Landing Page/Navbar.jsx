@@ -132,7 +132,7 @@ const Navbar = () => {
       label: "Careers",
       sublabel: "Barcode label printers from inFlow",
       icon: <AiOutlinePrinter />,
-      link: "/allfeatures",
+      link: "/careers",
 
     },
     {
