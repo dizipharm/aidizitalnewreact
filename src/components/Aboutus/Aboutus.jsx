@@ -10,6 +10,8 @@ import Banner1 from '../../assets/banner1.jpg'
 import Navbar from '../Landing Page/Navbar'
 import Footer from '../Landing Page/Footer'
 import New from './new'
+import New2 from './New2'
+import New3 from './New3'
 
 
 const Aboutus = () => {
@@ -42,6 +44,8 @@ const Aboutus = () => {
         </div>
     </div>
   <New/>
+  <New2/>
+  <New3/>
     <Footer/>
     </>
   )
