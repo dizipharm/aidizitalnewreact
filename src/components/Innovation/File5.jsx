@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Img1 from './../../assets/data-access.jpg'
 import Img2 from './../../assets/data-security.jpg'
 import Img3 from './../../assets/data-the-cloud.jpg'
+import TabsRender from './Tabs';
 
 
 const File5 = () => {
@@ -69,54 +70,9 @@ const File5 = () => {
    <>
     <div className=' w-full h-screen flex gap-4 px-12 pt-8'>
         <h1 className=' w-3/12 text-3xl   font-bold'> How <span className=' text-[#17b1b1]' >We Do</span> </h1>
-        <div className=' w-9/12'>
-
-        <div class="tabs-group">
-    <div class="tabs-container">
-      <div class="tabs">
-        <p>Data Transformation</p>
-      </div>
-      <div class="tabs">
-        <p>Machine Learning and AI</p>
-      </div>
-      <div class="tabs">
-        <p>Data Visualization</p>
-      </div>
-      <div class="indicator" />
-    </div>
-    <div class="tab-content">
-      <div class="tab-content-item flex gap-2 pt-2">
-        <img className=' w-2/3 h-80' src={Img1} alt='img1'/>
-        <div className=' flex flex-col'> 
-        <h1 className=' text-2xl '>Data<br/> <span className=' text-[#17b1b1]'>Transformation</span></h1>
-        <p className=' text-lg'>With more than 20 years of experience in data discovery and transformation, we help you with a fastest and easiest way to extract data from difficult, semi-structured data, as well as from Big Data and other structured sources.
-
-        </p>
-        </div>
-        
-      </div>
-      <div class="tab-content-item flex gap-2 pt-2">
-        <img className=' w-2/3 h-80' src={Img2} alt='img2'/>
-        <div className=' flex flex-col'> 
-        <h1 className=' text-2xl '>Machine Learning <span className=' text-[#17b1b1]'>and AI</span></h1>
-        <p className=' text-lg'>We deliver machine learning and AI solutions quickly get to the granular , delivering transparency Our flexible no-code approach doesn’t restrict how models are configured and tuned, giving you control over model building.
-         </p>
-        </div>
-        
-      </div>
-      <div class="tab-content-item flex gap-2 pt-2">
-        <img className=' w-2/3 h-80' src={Img3} alt='img3'/>
-        <div className=' flex flex-col'> 
-        <h1 className=' text-2xl '>Data<br/> <span className=' text-[#17b1b1]'>Visualization</span></h1>
-        <p className=' text-lg'>We help you with building visualization tools that give you fast, fully informed decisions by crunching all sorts of siloed data points across your business.
-         </p>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-             
-        </div>
+       <div className=' w-9/12'>
+<TabsRender/>
+       </div>
       
       </div>
    </>
