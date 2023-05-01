@@ -13,7 +13,7 @@ const Ourapproach = () => {
     <div className="w-full  bg-gray-100 flex flex-col justify-between ">
       <section className=" ">
         <div className=" ">
-          <div className=" flex gap-4 justify-center px-40 mt-8 ">
+          <div className=" grid grid-flow-row sm:grid-flow-col  gap-4 justify-center px-20 mt-8 ">
             <div>
               <h2 className=" text-5xl font-bold col-span-3">Our Approach</h2>
             </div>
@@ -25,11 +25,7 @@ const Ourapproach = () => {
                 We use state of the art design-based principles that enable
                 business transformation at all levels and ecosystems.
               </p>
-            </div>
-          </div>
-          <div className=" flex gap-4 justify-center px-40 ">
-            <div className=" col-span-3"></div>
-            <div className=" grid grid-cols-2 col-span-9 gap-8">
+              <div className=" grid grid-flow-row grid-rows-2 sm:grid-flow-col  col-span-9 gap-8">
               <div className=" flex flex-col gap-4">
                 <img className=" h-28 w-20 " src={Apr1} alt="apr1" />
                 <div className=" w-40 flex flex-col gap-4">
@@ -69,14 +65,11 @@ const Ourapproach = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center px-40 m-8">
-            <div className=" col-span-3"></div>
-            <div className=" col-span-9">
-            <button type="button" className="bg-[#17b1b1] gap-4 -ml-12 flex border-[#17b1b1] p-2 text-white"  >
+            <button type="button" className="bg-[#17b1b1] gap-4 w-60 flex border-[#17b1b1] p-2 text-white"  >
              Connect with our experts <BsArrowRight className=' m-1 text-white'/>
-          </button>            </div>
+          </button>     </div>
           </div>
+       
         </div>
       </section>
     </div>
