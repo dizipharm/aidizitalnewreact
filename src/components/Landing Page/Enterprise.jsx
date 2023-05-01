@@ -8,7 +8,7 @@ import {
 
 const Enterprise = () => {
   return (
-    <div  className="w-full my-32">
+    <div  className="w-full my-32  ">
       <div className="max-w-[1240px] mx-auto px-2">
         <h2 className="text-4xl font-bold text-center p-1 sm:py-8 md:px-12 pt-40">Enterprise Blockchain & AI Solutions</h2>
         

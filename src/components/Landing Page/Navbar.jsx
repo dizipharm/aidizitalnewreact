@@ -151,16 +151,16 @@ const Navbar = () => {
      
      <div className="flex flex-col divide-x-2 ">
      <div className="px-2 flex justify-between items-center w-full h-full ">
-         <div className="flex items-center">
-          <Link to='/'><img className=" h-10 pl-2 " src={Logo} alt="/logo" /></Link>
+         <div className="flex items-center pt-2">
+          <Link to='/'><img className=" h-9 pl-2 " src={Logo} alt="/logo" /></Link>
           {/* <h1 className=" lg:text-3xl sm:text-2xl font-bold"> Millets </h1> */}
         </div>
         <div className=" flex gap-4">
           <ul className="hidden md:flex text-black ">
-          <li><GrMedium/></li>
+          {/* <li><Link> <GrMedium/></Link></li>
           <li><TfiFacebook/></li>
           <li><FaLinkedinIn /></li>
-          <li><FaTwitter /></li>
+          <li><FaTwitter /></li> */}
           </ul>
         </div>
         
@@ -168,7 +168,7 @@ const Navbar = () => {
      <div className="px-6 flex n items-center w-full h-full border-t border-gray-300">
         <div className="flex items-center">
           {/* <Link to='/'><img className=" h-8 " src={Logo} alt="/logo" /></Link> */}
-          <h1 className=" lg:text-xl font-semibold font-serif mt-4 "> AiDiZital </h1>
+          <h1 className=" lg:text-xl font-semibold font-serif mt-4 "> <Link to='/'>AiDiZital</Link> </h1>
         </div>
         <div className=" mr-12">
           <ul className="hidden md:flex text-black">
