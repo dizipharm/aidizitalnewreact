@@ -5,13 +5,13 @@ import Get3 from './../../assets/kick-off.png'
 
 const Getstarted = () => {
   return (
-    <div className="w-full  bg-white flex flex-col justify-center p-12 ">
+    <div className="w-full  bg-white text-black flex flex-col justify-center p-12 ">
         <div>
             <div className=' flex flex-col text-center gap-4'>
                 <h1 className=' text-2xl font-bold'>Get Started Today</h1>
-                <p className=' text-lg px-40'>Our blockchain consultants understand your project-specific needs and help you identify the right blockchain protocol that suits your business case.</p>
+                <p className=' text-lg lg:px-40 sm:px-12'>Our blockchain consultants understand your project-specific needs and help you identify the right blockchain protocol that suits your business case.</p>
             </div>
-            <div className=' grid grid-cols-3 px-28 gap-8 p-8'>
+            <div className=' grid  lg:grid-flow-cols lg:grid-cols-3 md:grid-flow-cols md:grid-cols-3 sm:grid-flow-row    px-28 gap-8 p-8'>
             <div className=' flex flex-col'>
                 <img className=' h-20 w-20 border-2 border-spacing-8 border-opacity-100  border-[#17b1b1]' src={Get1} alt='get1' />
                 <div className=' flex flex-col'>
