@@ -3,17 +3,17 @@ import React from 'react'
 const Section4 = () => {
   return (
     <>
-    <div className=' flex pt-9 px-16'>
-        <div className=' w-1/3'>
-            <h1 className=' font-bold text-5xl text-center pt-40 '> Services</h1>
+    <div className=' grid grid-flow-row sm:grid-flow-col  gap-20 pt-9 lg:px-20 md:px-20'>
+        <div className=''>
+            <h1 className=' font-bold text-5xl text-center lg:pt-40 md:pt-40 '> Services</h1>
 
         </div>
-        <div className=' w-2/3 flex flex-col gap-8 '>
+        <div className=' flex flex-col gap-8 '>
         <div className=' flex flex-col'>
-            <h4 className=' text-5xl font-sans w-1/5'>Intelligent,<span className=' text-[#17b1b1]'>Digital, Analytics</span> </h4>
-            <p>World-class Services, Budget Fit, Highly Scalable</p>
+            <h4 className=' text-5xl sm:text-4xl font-sans text-center '>Intelligent,<span className=' text-[#17b1b1]'>Digital, <br/>Analytics</span> </h4>
+            <p className=' text-center text-lg'>World-class Services, Budget Fit, Highly Scalable</p>
             </div>  
-        <div className=' flex  gap-4'>
+        <div className=' grid grid-flow-row sm:grid-flow-col px-2  gap-4'>
 
         <div className=' flex flex-col gap-2'>
             <h1 className=' font-semibold'>Intelligent automation</h1>

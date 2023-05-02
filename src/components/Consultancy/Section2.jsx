@@ -7,15 +7,15 @@ import Apr4 from "./../../assets/poc.png";
 
 const Section2 = () => {
   return (
-   <div className=" w-full px-12 pt-8 ">
-    <div className=" flex  gap-3">
-    <div className=" w-4/12">
-        <h1 className=" text-4xl font-bold text-center  pt-60">
+   <div className=" w-full lg:px-12 md:px:12   pt-8 ">
+    <div className=" grid grid-flow-row sm:grid-flow-col col-span-4 sm:col-span-0  gap-3">
+    <div className=" ">
+        <h1 className=" text-4xl font-bold text-center  lg:pt-60 md:pt-60 sm:pt-1">
         Our Blockchain Consulting Process
         </h1>
     </div>
-    <div className=" w-8/12">
-    <div className=" grid grid-cols-2  gap-8 font-sans">
+    <div className=" ">
+    <div className=" grid grid-flow-row grid-rows-2 sm:grid-flow-col  px-2 col-span-9   gap-8 font-sans">
               <div className=" flex flex-col gap-4">
                 <img className=" h-28 w-20 " src={Apr1} alt="apr1" />
                 <div className=" w-full flex flex-col gap-4">

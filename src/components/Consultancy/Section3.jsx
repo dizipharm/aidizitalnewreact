@@ -10,11 +10,11 @@ import {
 const Section3 = () => {
   return (
   <>
-  <div  className="w-full ">
+  <div  className="w-full text-black bg-white ">
       <div className="max-w-[1240px] mx-auto px-2 font-sans">
         
 
-        <div className=" grid grid-flow-row sm:grid-flow-col pt-4  px-20 ">
+        <div className=" grid grid-flow-row sm:grid-flow-col pt-4  lg:px-20 md:px-20 ">
         
         <div className=" flex flex-col gap-2  ">
           <h1 className=" font-bold text-5xl w-[75%]">
