@@ -71,12 +71,12 @@ const Tabs = ({ color }) => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+          <div className="relative flex flex-col  min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <div className=" flex gap-4">
-                    <img className=" w-1/2 h-[25%]" src={Img1}/>
+                  <div className=" grid grid-flow-row sm:grid-flow-col  gap-4">
+                    <img className=" w-screen h-[100%]" src={Img1}/>
                     <div className=" flex flex-col gap-2">
                         <h1 className=" text-2xl ">Data <span className=" text-[#17b1b1]">Transformation</span> </h1>
                         <p>With more than 20 years of experience in data discovery and transformation, we help you with a fastest and easiest way to extract data from difficult, semi-structured data, as well as from Big Data and other structured sources.
@@ -86,8 +86,8 @@ const Tabs = ({ color }) => {
                   </div>
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                <div className=" flex gap-4">
-                    <img className=" w-1/2 h-[25%]" src={Img2}/>
+                <div className=" grid grid-flow-row sm:grid-flow-col  gap-4">
+                    <img className=" w-screen h-[100%]" src={Img2}/>
                     <div className=" flex flex-col gap-2">
                         <h1 className=" text-2xl ">Machine Learning  <span className=" text-[#17b1b1]">and AI</span> </h1>
                         <p>We deliver machine learning and AI solutions quickly get to the granular , delivering transparency Our flexible no-code approach doesn’t restrict how models are configured and tuned, giving you control over model building.
@@ -97,8 +97,8 @@ const Tabs = ({ color }) => {
                     </div>
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                <div className=" flex gap-4">
-                    <img className=" w-1/2 h-[25%]" src={Img3}/>
+                <div className=" grid grid-flow-row sm:grid-flow-col  gap-4">
+                    <img className=" w-screen h-[100%]" src={Img3}/>
                     <div className=" flex flex-col gap-2">
                         <h1 className=" text-2xl ">Data  <span className=" text-[#17b1b1]">Visualization</span> </h1>
                         <p>We help you with building visualization tools that give you fast, fully informed decisions by crunching all sorts of siloed data points across your business.

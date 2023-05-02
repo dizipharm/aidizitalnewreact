@@ -68,9 +68,9 @@ const File5 = () => {
  
   return (
    <>
-    <div className=' w-full h-screen flex gap-4 px-12 pt-8'>
-        <h1 className=' w-3/12 text-3xl   font-bold mt-8'> How <span className=' text-[#17b1b1]' >We Do</span> </h1>
-       <div className=' w-9/12'>
+    <div className=' w-full bg-gray-100 text-black  grid grid-flow-row sm:grid-flow-col col-span-4 sm:col-span-0  gap-4 px-12    '>
+        <h1 className='  text-3xl   font-bold mt-8'> How <span className=' text-[#17b1b1]' >We Do</span> </h1>
+       <div className='  '>
 <TabsRender/>
        </div>
       

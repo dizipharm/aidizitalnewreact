@@ -18,9 +18,9 @@ const File = () => {
   return (
     <>
     <Navbar/>
-    <div name='home' className='w-full h-screen bg-white flex flex-col justify-between px-16  pt-4' >
-        <div className='grid md:grid-cols-2  max-w-[1240px] m-auto'>
-            <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
+    <div name='home' className='w-full h-screen bg-white text-black flex flex-col justify-between lg:px-16 md:px-16   pt-4' >
+        <div className='grid md:grid-cols-2  max-w-[1240px] lg:m-auto md:m-auto'>
+            <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 lg:py-8 md:py-8'>
                 {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
                 <h1 className='py-3 mt-20 text-3xl md:text-6xl font-semibold  text-black flex flex-col'>Enabling <span className=' text-[#17b1b1]'>Secure And Immutable</span> Data With Blockchain <p className=' text-4xl text-[#17b1b1]'>↷</p></h1>
                 {/* <p className='text-xl mt-2 text-white'> We are helping innovate startups to change how the world lives and works.
@@ -37,7 +37,7 @@ const File = () => {
           
                 </div> */}
             </div>
-           <div className=' mt-40' >
+           <div className=' lg:mt-40 md:mt-40 ' >
             <img src={Mill} alt='Mill'/>
            </div>
            

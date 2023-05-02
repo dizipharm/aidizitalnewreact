@@ -7,8 +7,8 @@ import {
 const File4 = () => {
   return (
    <>
-    <div className=' flex gap-4 px-8'>
-    <div className=' w-3/12 f '>
+    <div className=' grid grid-flow-row sm:grid-flow-col col-span-4 sm:col-span-0   lg:gap-32 md:gap-8 px-8'>
+    <div className='   '>
     <h1 className=' text-4xl font-bold text-black'>
             Blockchain <br/>
             <span className=' text-[#17b1b1] text-4xl font-bold'>
@@ -17,7 +17,7 @@ const File4 = () => {
         </h1>
      
     </div>
-    <div className=' w-9/12 flex flex-col gap-3'>
+    <div className='  flex flex-col gap-3'>
     <div>
         <p className=' text-md'>
         Explore our informational guides to gain a deeper understanding of various aspects of blockchain such as how it works, ways to use it and considerations for implementation.
