@@ -6,17 +6,17 @@ import Img2 from './../../assets/vision.png'
 const New = () => {
   return (
   <>
-    <div className=' w-full h-screen flex gap-4 pt-8 px-8'>
-    <h1 className=' w-3/12 text-4xl'>
+    <div className=' w-full md:h-screen flex flex-col md:flex-row gap-4 pt-8 px-8'>
+    <h1 className=' md:w-3/12 text-4xl'>
         About <span className=' text-[#17b1b1]'>Us</span>
     </h1>
-    <div className=' w-9/12 flex flex-col gap-4'>
+    <div className=' md:w-9/12 flex flex-col gap-4'>
     <div>
-        <h1 className=' text-3xl mr-40'>
+        <h1 className=' text-3xl md:mr-40'>
         Your Partner Into Future Of Deep Tech Digital Transformation Using <span className=' text-[#17b1b1]'>Blockchain & AI</span> 
         </h1>
     </div>
-    <div className=' flex'>
+    <div className=' flex flex-col md:flex-row'>
     <div className=' flex flex-col gap-2'>
         <img className=' w-20 h-20' src={Img2} alt='img1'/>
         <h1 className=' text-2xl font-bold'> Our Vision</h1>
