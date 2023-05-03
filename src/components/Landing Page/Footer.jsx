@@ -20,12 +20,12 @@ const Footer = () => {
     <span className="footer-title"><img className=' h-10 pl-2' src={Logo} alt='logo' /></span> 
     <p className="link link-hover">Blockchain & AI solutions for<br/> Future Digital Transformation, we<br/> are Helping startups, 
     SME's apply<br/> deep technology to drive your <br />transformation into the future.</p> 
-   <div className=' text-lg flex gap-4 pt-4'>
+   {/* <div className=' text-lg flex gap-4 pt-4'>
      <GrMedium/>
      <TfiFacebook/>
      <FaLinkedinIn/>
      <FaTwitter/>
-   </div>
+   </div> */}
     {/* <a className="link link-hover">Design</a> 
     <a className="link link-hover">Marketing</a> 
     <a className="link link-hover">Advertisement</a> */}
