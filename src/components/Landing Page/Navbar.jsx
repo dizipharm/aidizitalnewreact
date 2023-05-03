@@ -21,8 +21,12 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
-
+  const [show,setShow]= useState(false)
+  const [show1,setShow1]= useState(false)
+  const [show2,setShow2]= useState(false)
+  const [show3,setShow3]= useState(false)
   const [nav, setNav] = useState(false);
+
   const handleClick = () => setNav(!nav);
 
   const handleClose = () => setNav(!nav);
@@ -168,13 +172,13 @@ const Navbar = () => {
      <div className="px-6 flex n items-center w-full h-full border-t border-gray-300">
         <div className="flex items-center">
           {/* <Link to='/'><img className=" h-8 " src={Logo} alt="/logo" /></Link> */}
-          <h1 className=" lg:text-xl font-semibold font-serif mt-4 "> <Link to='/'>AiDiZital</Link> </h1>
+          <h1 className=" lg:text-xl font-semibold font-serif mt-4 hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]"> <Link to='/'>AiDiZital</Link> </h1>
         </div>
         <div className=" mr-12">
           <ul className="hidden md:flex text-black">
               
             <li className="dropdown dropdown-hover " >
-              <label className=" flex">
+              <label className=" flex hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]">
                 Solutions <RiArrowDropDownLine className=" mt-1 text-lg" />
               </label>
               <div
@@ -197,7 +201,7 @@ const Navbar = () => {
             </li>
            
             <li className="dropdown dropdown-hover " >
-              <label className=" flex">
+              <label className=" flex hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]">
                 Services <RiArrowDropDownLine className=" mt-1 text-lg" />
               </label>
               <div
@@ -218,7 +222,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="dropdown dropdown-hover " >
-              <label className=" flex">
+              <label className=" flex hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]">
                 Case Studies <RiArrowDropDownLine className=" mt-1 text-lg" />
               </label>
               <div
@@ -239,7 +243,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="dropdown dropdown-hover " >
-              <label className=" flex">
+              <label className=" flex hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]">
                 Case Studies <RiArrowDropDownLine className=" mt-1 text-lg" />
               </label>
               <div
@@ -265,11 +269,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="md:hidden mr-4" onClick={handleClick}>
+        <div className="md:hidden ml-40 mr-4" onClick={handleClick}>
           {!nav ? (
-            <AiOutlineMenu className="w-5 text-white" />
+            <AiOutlineMenu className="w-5 text-[#17b1b1]" />
           ) : (
-            <AiOutlineClose className="w-5 text-white" />
+            <AiOutlineClose className="w-5 text-[#17b1b1]" />
           )}
         </div>
       </div>
@@ -278,55 +282,63 @@ const Navbar = () => {
       
 
       <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8 "}>
-        <li className="border-b-2 border-zinc-300 w-full hover:bg-[#17b1b1] hover:text-white">
-          <Link onClick={handleClose} to="/" >
-            Home
-          </Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full hover:bg-[#17b1b1] hover:text-white">
-          <Link
-            onClick={handleClose}
-            to="/accessories"
-            
-          >
-            Hardware
-          </Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full hover:bg-[#f9aa33] hover:text-white">
-          <Link
-            onClick={handleClose}
-            to="/allfeatures"
-            
-          >
-            Software
-          </Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full hover:bg-[#f9aa33] hover:text-white">
-          <Link
-            onClick={handleClose}
-            to="/about"
-           
-          >
-            About Us
-          </Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full hover:bg-[#f9aa33] hover:text-white">
-          <Link
-            onClick={handleClose}
-            to="/pricing"
-           
-          >
-            Pricing
-          </Link>
-        </li>
-        <li  className="border-b-2 border-zinc-300 w-full hover:bg-[#f9aa33] hover:text-white">
-        <Link
-         onClick={handleClose}
-         to='/contact'>
+      
+      <li className="border-b-2 border-zinc-300 w-full ">
+        <label className=" flex hover:border-b-2  " onClick={() =>setShow2(!show2)}>
+                Solutions <RiArrowDropDownLine className=" mt-1 text-lg" />
+              </label>
+              {
+                show2? <ul >
+                <li className='border-b-2 border-zinc-300'><Link to='/tracepharm'>TracePharm</Link></li>
+                <li > <Link to='https://www.tcubeai.com/'>Serialization</Link></li>
+                </ul>:null
+              }
         
-              <button className='  w-40 h-10  mt-2 hover:text-white hover:bg-[#f9aa33]    bg-[#e3e8ea] font-semibold text-[#f9aa33] '>Get Started</button>      
-            </Link>
         </li>
+        <li className="border-b-2 border-zinc-300 w-full  ">
+        <label className=" flex hover:border-b-2  " onClick={() =>setShow(!show)}>
+                Services <RiArrowDropDownLine className=" mt-1 text-lg" />
+              </label>
+              {
+                show? <ul >
+                <li className='border-b-2 border-zinc-300'>Consultancy</li>
+                <li >Innovation & Prototyping</li>
+                </ul>:null
+              }
+        
+        </li>
+        <li className="border-b-2 border-zinc-300 w-full ">
+        <label className=" flex  hover:text-[black]" onClick={() =>setShow1(!show1)}>
+                Case Studies <RiArrowDropDownLine className=" mt-1 text-lg" />
+              </label>
+              {
+                show1?<ul>
+                <li className='border-b-2 border-zinc-300'><Link>Supply Chain</Link></li>
+                <li className='border-b-2 border-zinc-300'><Link>Sustainability</Link></li>
+                <li className='border-b-2 border-zinc-300 '><Link>NFT marketplaces</Link></li>
+                <li className=''><Link>Art & Fairtrade</Link></li>
+                </ul>:null
+              }
+         
+        </li>
+        <li className="border-b-2 border-zinc-300 w-full ">
+        <label className=" flex hover:text-[black]" onClick={() =>setShow3(!show3)}>
+                Company <RiArrowDropDownLine className=" mt-1 text-lg" />
+              </label>
+              {
+                show3? <ul>
+                <li className='border-b-2 border-zinc-300'><Link>About AiDizital</Link></li>
+                <li className='border-b-2 border-zinc-300'><Link>Team</Link></li>
+                <li className='border-b-2 border-zinc-300'><Link>Careers</Link></li>
+                <li className=''><Link>Contact</Link></li>
+       
+                </ul>:null
+
+              }
+        
+        </li>
+       
+       
         
       </ul>
     </div>
