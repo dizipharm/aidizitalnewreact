@@ -9,8 +9,8 @@ const Careerfile = () => {
     <div className=" pt-8 text-center justify-center px-12 flex flex-col gap-8 ">
       <h1 className=" text-4xl font-bold ">Open Position In All Locations</h1>
       <div className=" flex flex-col gap-8">
-        <div className=" flex gap-8 justify-center  px-36 ">
-          <img className=" w-2/3  h-60" src={Img1} alt="img1" />
+      <div className=" flex flex-col md:flex-row gap-8 justify-center md:px-36 ">
+          <img className=" md:w-2/3  h-60" src={Img1} alt="img1" />
           <div className=" flex flex-col text-left ">
             <h1 className=" font-bold text-2xl">Software Developer</h1>
             <div className=" flex flex-col  ">
@@ -47,8 +47,8 @@ const Careerfile = () => {
             </div>
           </div>
         </div>
-        <div className=" flex gap-8 justify-center  px-36 ">
-          <img className=" w-2/3  h-60" src={Img2} alt="img2" />
+        <div className=" flex flex-col md:flex-row gap-8 justify-center md:px-36 ">
+          <img className=" md:w-2/3  h-60" src={Img2} alt="img2" />
           <div className=" flex flex-col text-left ">
             <h1 className=" font-bold text-2xl">DevOps Developer</h1>
             <div className=" flex flex-col  ">
