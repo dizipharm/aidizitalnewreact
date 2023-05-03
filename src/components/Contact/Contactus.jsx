@@ -18,14 +18,14 @@ import Footer from './../Landing Page/Footer'
 
 const Contactus = () => {
   return (
-    <div className="w-full h-screen  pt-32 px-8  flex flex-col gap-8">
+    <div className="w-full h-screen  pt-32 md:px-8  flex flex-col gap-8">
       <div>
-        <h2 className=" text-5xl font-bold p-8">
+        <h2 className=" text-3xl md:text-5xl font-bold md:p-8">
           We love to <span className=" text-[#17b1b1]">connect with you</span>
         </h2>
       </div>
-      <div className=" flex  pl-12 gap-4">
-        <div className=" w-1/2 pl-20  bg-gray-100 rounded-sm">
+      <div className=" flex flex-col md:flex-row  md:pl-12 gap-4">
+        <div className=" md:w-1/2 pl-20  bg-gray-100 rounded-sm">
           <div>
             <form
               method="POST"
@@ -145,7 +145,7 @@ const Contactus = () => {
             </form>
           </div>
         </div>
-        <div className=" w-1/2">
+        <div className=" md:w-1/2">
           <div className="col-md-5">
             <div className="contact_boxes">
               <div className="single-contact">
