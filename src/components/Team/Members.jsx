@@ -15,11 +15,11 @@ const Members = () => {
             Our Leaders
         </h1>
     </div>
-    <div className=' grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className=' grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:px-8'>
+    <div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={Raj} alt="Raj" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
      
       Raj Mortha
@@ -28,10 +28,10 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={John} alt="John" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
      
     John Richardson
@@ -40,10 +40,10 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={Constantyn} alt="Constantyn" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
      
     Constantyn Chailostis
@@ -52,10 +52,10 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={Tapan} alt="Tapan" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
      
     Tapan Rayaguru
@@ -64,10 +64,10 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={David} alt="David" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
      
     Prof.David Windridge
@@ -77,10 +77,10 @@ const Members = () => {
   </div>
 </div>
 
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-80 bg-base-100 shadow-xl">
   <figure>
     <img src={Stanley} alt="Stanley" /></figure>
-  <div className="card-body ml-20">
+  <div className="card-body p-12">
     <h2 className="card-title text-center">
     Stanley Vasa
     </h2>
