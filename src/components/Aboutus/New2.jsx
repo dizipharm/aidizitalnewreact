@@ -18,40 +18,30 @@ import Img17 from './../../assets/aboutusphotos/support_us5.png'
 
 const New2 = () => {
   return (
-    <div>
-     <div className="carousel w-full">
-  <div id="item1" className="carousel-item w-full flex gap-12 h-16  justify-between object-contain">
-  <img src={Img3} className="" />
-  <img src={Img1} className="" />
-  <img src={Img4} className="" />
-  <img src={Img2} className="" />
-  <img src={Img5} className="" />
-  </div> 
-  <div id="item2" className="carousel-item w-full flex gap-12 h-16  justify-between object-contain">
-  <img src={Img6}/>
-  <img src={Img7}/>
-  <img src={Img8}/>
-  <img src='https://delmergate.com/MedicineChest/Website/img/Instances/97/CustomContent/41096_20230216093638.jpg' alt='img9'/>
-  <img src={Img10}/>
-  </div> 
-  <div id="item3" className="carousel-item w-full flex gap-12 h-16  justify-between object-contain">
-  <img src={Img11} className="" />
-  <img src={Img12} className="" />
-  <img src={Img13} className="" />
-  <img src={Img14} className="" />
-  <img src={Img15} className="" />  </div> 
-  <div id="item4" className="carousel-item w-full flex gap-4 h-16   object-contain">
-  <img src={Img16}/>
-  <img src={Img17}/>
+   <div className=' w-full'>
+<marquee >
+  <div className=' flex gap-12 h-16  justify-between object-contain'>
+  <img src={Img3} />
+  <img src={Img1}  />
+  <img src={Img4}  />
+  <img src={Img2}  />
+  <img src={Img5}  />
+  <img src={Img6}  />
+  <img src={Img7}  />
+  <img src={Img8}  />
+  <img  src='https://delmergate.com/MedicineChest/Website/img/Instances/97/CustomContent/41096_20230216093638.jpg' alt='img9'/>
+  <img src={Img10}  />
+  <img src={Img11}  />
+  <img src={Img12} />
+  <img src={Img13}  />
+  <img src={Img14}/>
+  <img src={Img15}  /> 
+  <img src={Img16} />
+  <img src={Img17} />
   </div>
-</div> 
-<div className="flex justify-center w-full py-2 gap-2">
-  <a href="#item1" className="btn btn-xs">1</a> 
-  <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a>
-</div>
-    </div>
+
+</marquee>
+   </div>
   )
 }
 
