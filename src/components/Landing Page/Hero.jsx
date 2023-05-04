@@ -12,6 +12,8 @@ import Banner1 from '../../assets/banner1.jpg'
 const Hero = () => {
   return (
     <div name='home' className='w-full h-screen bg-[url("./assets/banner2.jpg")]  bg-no-repeat bg-cover flex flex-col justify-between ' >
+       <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
+       <div className="absolute inset-0 flex">
         <div className='grid md:grid-cols-2  max-w-[1240px] m-auto'>
             <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
                 {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
@@ -34,6 +36,7 @@ const Hero = () => {
             <img src={Mill} alt='Mill'/>
            </div> */}
            
+        </div>
         </div>
     </div>
   )
