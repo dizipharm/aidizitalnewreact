@@ -18,7 +18,10 @@ import Img17 from './../../assets/aboutusphotos/support_us5.png'
 
 const New2 = () => {
   return (
-   <div className=' w-full'>
+   <div className=' flex flex-col w-full gap-2'>
+    <div>
+      <h1 className=' text-center text-3xl font-bold'>Our <span className=' text-[#17b1b1]'>Partners/Customers</span> </h1>
+    </div>
 <marquee >
   <div className=' flex gap-12 h-16  justify-between object-contain'>
   <img src={Img3} />
