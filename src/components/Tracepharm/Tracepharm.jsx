@@ -18,7 +18,7 @@ const Tracepharm = () => {
     <Navbar/>
     <div name='home' className='w-full h-screen relative bg-[url("./assets/sc_banner.jpg")]  bg-[50%]  0  bg-no-repeat bg-cover flex flex-col justify-between ' >
         <div className='grid md:grid-cols-2  max-w-[1240px] pt-40 pl-8'>
-            <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
+            <div className='flex flex-col mt-10  justify-center absolute bottom-0 left-0 md:bottom-40 md:left-8  md:items-start w-full px-2 py-8'>
                 {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
                 <h1 className='py-3 mt-20 text-3xl md:text-5xl font-bold text-white flex flex-col '>Supply Chain</h1>
                 {/* <p className='text-xl mt-2 text-white'> We can help you create a safer , secure and sustainable fairtrade platform for all the stakeholders in Food Supply Chain Across the Globe.We help you with traceability, quality and compliance of Food Supply Chain, with transparency.
