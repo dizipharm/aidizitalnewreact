@@ -19,6 +19,7 @@ import Careers from './components/Careers/Careers'
 
 const App = () => {
   return (
+    <div className='bg-white'>
     <Router>
     <Routes>
       <Route path='/' element={<Landing/>}/>
@@ -39,6 +40,7 @@ const App = () => {
 
       </Routes>
       </Router>
+      </div>
   )
 }
 
