@@ -18,7 +18,7 @@ import Footer from './../Landing Page/Footer'
 
 const Contactus = () => {
   return (
-    <div className="w-full h-screen bg-white  pt-32 md:px-8  flex flex-col gap-8">
+    <div className="w-full min-h-screen bg-white  pt-32 md:px-8  flex flex-col gap-8">
       <div>
         <h2 className=" text-3xl md:text-5xl font-bold md:p-8">
           We love to <span className=" text-[#17b1b1]">connect with you</span>
