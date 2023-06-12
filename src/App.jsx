@@ -19,7 +19,7 @@ import Careers from './components/Careers/Careers'
 
 const App = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white text-black'>
     <Router>
     <Routes>
       <Route path='/' element={<Landing/>}/>
