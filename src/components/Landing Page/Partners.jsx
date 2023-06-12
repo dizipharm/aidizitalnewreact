@@ -10,7 +10,7 @@ import {
 
 const Partners = () => {
   return (
-    <div className="  bg-base-200 text-black">
+    <div className="  bg-gray-100 text-black">
     <div className= " ">
       <div className=" text-center">
         <h1 className="text-5xl font-bold pt-12 text-center ">Our Solutions</h1>
