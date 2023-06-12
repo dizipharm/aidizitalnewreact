@@ -16,7 +16,7 @@ const Members = () => {
         </h1>
     </div>
     <div className=' grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:px-8'>
-    <div className="card w-80 bg-base-100 shadow-xl">
+    <div className="card w-80 bg-white shadow-xl">
   <figure>
     <img src={Raj} alt="Raj" /></figure>
   <div className="card-body p-12">
@@ -28,7 +28,7 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-80 bg-base-100 shadow-xl">
+<div className="card w-80 bg-bwhite shadow-xl">
   <figure>
     <img src={John} alt="John" /></figure>
   <div className="card-body p-12">
@@ -40,7 +40,7 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-80 bg-base-100 shadow-xl">
+<div className="card w-80 bg-white shadow-xl">
   <figure>
     <img src={Constantyn} alt="Constantyn" /></figure>
   <div className="card-body p-12">
@@ -52,7 +52,7 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-80 bg-base-100 shadow-xl">
+<div className="card w-80 bg-white shadow-xl">
   <figure>
     <img src={Tapan} alt="Tapan" /></figure>
   <div className="card-body p-12">
@@ -64,7 +64,7 @@ const Members = () => {
     
   </div>
 </div>
-<div className="card w-80 bg-base-100 shadow-xl">
+<div className="card w-80 bg-white shadow-xl">
   <figure>
     <img src={David} alt="David" /></figure>
   <div className="card-body p-12">
@@ -77,7 +77,7 @@ const Members = () => {
   </div>
 </div>
 
-<div className="card w-80 bg-base-100 shadow-xl">
+<div className="card w-80 bg-white shadow-xl">
   <figure>
     <img src={Stanley} alt="Stanley" /></figure>
   <div className="card-body p-12">
