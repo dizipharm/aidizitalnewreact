@@ -15,11 +15,13 @@ const Ourapproach = () => {
         <div className=" ">
           <div className=" grid grid-flow-row sm:grid-flow-col  gap-4 justify-center px-20 mt-8 ">
             <div>
-              <h2 className=" text-5xl font-bold col-span-3">Our Approach</h2>
+              {/* <h1 className=" text-4xl font-bold center col-span-3">
+                Our Approach</h1> */}
             </div>
+            
             <div className=" flex flex-col gap-4">
               <h3 className="text-3xl col-span-9">
-                Outcome-driven deep Tech Solutions in AI & Blockchain
+                <br></br>Outcome-driven deep Tech Solutions in AI & Blockchain
               </h3>
               <p>
                 We use state of the art design-based principles that enable

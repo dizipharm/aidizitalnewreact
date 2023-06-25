@@ -59,6 +59,7 @@ const Footer = () => {
    <div className='  text-black'>
     <span className="footer-title text-gray-800">Find Us</span> 
     <p className="link link-hover font-bold">UK</p> 
+    <p className="link link-hover">01753701021</p> 
     <p className="link link-hover">268 Bath Road, Slough,</p> 
     <p className="link link-hover">London, SL14DX</p>
     <p className="link link-hover"></p>
@@ -75,7 +76,7 @@ const Footer = () => {
   </div> 
   <div className="md:place-self-center md:justify-self-end">
     <div className="grid grid-flow-col gap-4">
-    <p>&copy; 2022 AI Sizital Solutions LTD. All rights reserved.</p>
+    <p>&copy; 2022 AI Dizital Solutions LTD. All rights reserved.</p>
     </div>
   </div>
 </footer>

@@ -152,7 +152,7 @@ const Contactus = () => {
                 <div className="cont_txt text-center">
                   <h4 className="ai-h4">Contact Us</h4>
                   <p>Email : hrglobal@aidizital.com</p>
-                  <p>Phone : +44 00000</p>
+                  {/* <p>Phone : +44 00000</p> */}
                   <ul className="hidden md:flex text-black text-center justify-center ">
           <li><GrMedium/></li>
           <li><TfiFacebook/></li>

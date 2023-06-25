@@ -57,7 +57,7 @@ const Whatwedo = () => {
               <div className=" pt-8 pl-8">
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />
-                  SDKs, APIs,Bots, Web/mobile app components
+                  SDKs, APIs, Bots, Web/mobile app components
                 </p>
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />
@@ -65,7 +65,7 @@ const Whatwedo = () => {
                 </p>
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />
-                  dApps integration
+                  Apps integration
                 </p>
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />
@@ -92,7 +92,7 @@ const Whatwedo = () => {
               <div className=" pt-8 pl-8">
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />
-                  Complete dApp development life cycle, from ideation, <br/> prototyping, MVP to deployment and maintenance.
+                  Complete App development life cycle, from ideation, <br/> prototyping, MVP to deployment and maintenance.
                 </p>
                 <p className=" flex">
                   <BsDot className=" text-3xl text-[#17b1b1]" />

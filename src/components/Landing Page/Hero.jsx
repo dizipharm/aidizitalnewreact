@@ -17,8 +17,8 @@ const Hero = () => {
         <div className='grid md:grid-cols-2  max-w-[1240px] m-auto'>
             <div className='flex flex-col mt-10  justify-center md:items-start w-full px-2 py-8'>
                 {/* <p className='text-xl mt-14 text-white'>Millets are important crops in the semiarid tropics of Asia and Africa (especially in South India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. This crop is favored due to its productivity and short growing season under dry, high-temperature conditions. </p> */}
-                <h1 className='py-3 mt-20 text-3xl md:text-5xl font-bold text-white flex flex-col'><span>Blockchain & AI </span> For Your Future <br/> Digital<br/> Transformation </h1>
-                <p className='text-xl mt-2 text-white'> We are helping innovate startups to change how the world lives and works.
+                <h1 className='py-3 mt-20 text-3xl md:text-5xl font-bold text-white flex flex-col'><span> Pioneering the future </span><br></br> Unleashing the potential of Blockchain and AI for a smarter world</h1>
+                <p className='text-xl mt-2 text-white'> To innovate and deliver exceptional products and services that exceed customer’s expectation
                 </p>
                 <div className='flex gap-2 pt-4'>
                   

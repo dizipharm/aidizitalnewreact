@@ -13,8 +13,8 @@ const Partners = () => {
     <div className="  bg-gray-100 text-black">
     <div className= " ">
       <div className=" text-center">
-        <h1 className="text-5xl font-bold pt-12 text-center ">Our Solutions</h1>
-        <p className="py-6  ">Our blockchain consultants understand your project-specific needs and help you identify the right blockchain protocol that suits your business case.</p>
+        <h1 className="text-5xl font-bold pt-12 text-center ">Our Products and Services</h1>
+        <p className="py-6  ">Our Blockchain and AI Consultants understand your project-specific needs and help you identify the right blockchain protocol that suits your business case.</p>
        <div className=' grid grid-flow-row sm:grid-flow-col gap-6 col-span-6 w-screen   px-8 '>
        <div className=' flex flex-col gap-2  '>
        <a href='' > 
