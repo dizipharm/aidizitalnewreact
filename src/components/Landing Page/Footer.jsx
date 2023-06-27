@@ -66,8 +66,12 @@ const Footer = () => {
     <p className="link link-hover font-bold">North America</p>
     <p className="link link-hover">Hollenbeck Avenue, Sunnyvale,</p>
     <p className="link link-hover">California 94087</p>
+    <p className="link link-hover font-bold">India</p>
+    <p className="link link-hover"> Telangana</p>
+    <p className="link link-hover">Kushaiguda, 500062</p>
 
   </div>
+  
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-white text-base-content border-base-300">
   <div className="items-center grid-flow-col ">
