@@ -185,9 +185,9 @@ const Navbar = () => {
                tabIndex={0} className="dropdown-content menu grid grid-cols-1  shadow bg-white mt-4 rounded-box w-52"
               >
                 {solutionItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.link}
+                    to={item.link}
                     className="block px-4 py-4 hover:bg-[#17b1b1] hover:text-black "
                   >
                     <div className=" flex gap-1">
@@ -195,7 +195,7 @@ const Navbar = () => {
                       {item.label}
                     </div>
                  
-                  </a>
+                  </Link>
                 ))}
               </div>
             </li>
