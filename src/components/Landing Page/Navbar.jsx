@@ -207,9 +207,9 @@ const Navbar = () => {
               <div
                 tabIndex={0} className="dropdown-content menu  shadow bg-white mt-4 rounded-box w-52" >
                 {menuItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.link}
+                    to={item.link}
                     className="block  px-4 py-4 hover:bg-[#17b1b1] hover:text-black "
                   >
                     <div className=" flex gap-1">
@@ -217,7 +217,7 @@ const Navbar = () => {
                       {item.label}
                     </div>
                    
-                  </a>
+                  </Link>
                 ))}
               </div>
             </li>
@@ -228,9 +228,9 @@ const Navbar = () => {
               <div
                 tabIndex={0} className="dropdown-content menu  shadow bg-white mt-4 rounded-box w-52" >
                 {softwareItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.link}
+                    to={item.link}
                     className="block  px-4 py-4 hover:bg-[#17b1b1] hover:text-black "
                   >
                     <div className=" flex gap-1">
@@ -238,20 +238,20 @@ const Navbar = () => {
                       {item.label}
                     </div>
                    
-                  </a>
+                  </Link>
                 ))}
               </div>
             </li>
             <li className="dropdown dropdown-hover " >
               <label className=" flex hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]">
-                Case Studies <RiArrowDropDownLine className=" mt-1 text-lg" />
+                Company <RiArrowDropDownLine className=" mt-1 text-lg" />
               </label>
               <div
                 tabIndex={0} className="dropdown-content menu  shadow bg-white mt-4 rounded-box w-52" >
                 {companyItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.link}
+                    to={item.link}
                     className="block  px-4 py-4 hover:bg-[#17b1b1] hover:text-black "
                   >
                     <div className=" flex gap-1">
@@ -259,7 +259,7 @@ const Navbar = () => {
                       {item.label}
                     </div>
                    
-                  </a>
+                  </Link>
                 ))}
               </div>
             </li>
