@@ -52,9 +52,9 @@ const Footer = () => {
   </div> 
   <div className='  text-black'>
     <span className="footer-title text-gray-800"> &nbsp;</span> 
-    <a className="link link-hover">About Us</a> 
-    <a className="link link-hover">Team</a> 
-    <a className="link link-hover">Contact Us</a>
+    <Link to='/about' className="link link-hover">About Us</Link> 
+    <Link to='/team' className="link link-hover">Team</Link> 
+    <Link to='/contact' className="link link-hover">Contact Us</Link>
   </div>
    <div className='  text-black'>
     <span className="footer-title text-gray-800">Find Us</span> 
