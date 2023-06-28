@@ -32,8 +32,8 @@ const Footer = () => {
   </div> 
   <div className='  text-black'>
     <span className="footer-title text-gray-800">Industries</span> 
-    <a className="link link-hover">Supply Chain</a> 
-    <a className="link link-hover">Automobile</a> 
+    <Link className="link link-hover" to="/tracepharm">Supply Chain</Link>
+    <Link className="link link-hover" to="/">Automobile</Link> 
     <a className="link link-hover">Fairtrade & Luxury</a> 
     <a className="link link-hover">Goods</a>
     <a className="link link-hover">Art & Fashion</a>
@@ -52,9 +52,9 @@ const Footer = () => {
   </div> 
   <div className='  text-black'>
     <span className="footer-title text-gray-800"> &nbsp;</span> 
-    <a className="link link-hover">About Us</a> 
-    <a className="link link-hover">Team</a> 
-    <a className="link link-hover">Contact Us</a>
+    <Link className="Link link-hover" to= "/about"> About Us</Link> 
+    <Link className="Link link-hover" to="/team">Team</Link> 
+    <Link className="link link-hover"to= "/contact">Contact Us</Link>
   </div>
    <div className='  text-black'>
     <span className="footer-title text-gray-800">Find Us</span> 
