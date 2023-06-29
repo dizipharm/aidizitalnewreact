@@ -1,22 +1,123 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./../Css/custom.css";
 import {
   AiOutlineMenu,
   AiOutlineClose,
   AiOutlinePrinter,
-  AiOutlineBarcode
+  AiOutlineBarcode,
 } from "react-icons/ai";
-import {FaLinkedinIn, FaTwitter} from "react-icons/fa"
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { TiBatteryFull } from "react-icons/ti";
 import { MdQrCodeScanner } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import {
+  loadCaptchaEnginge,
+  LoadCanvasTemplate,
+  validateCaptcha,
+} from "react-simple-captcha";
 
 import { TfiFacebook } from "react-icons/tfi";
 
 import { GrMedium } from "react-icons/gr";
-import Footer from './../Landing Page/Footer'
+import Footer from "./../Landing Page/Footer";
 
 const Contactus = () => {
+  const [name, setName] = useState("");
+  const [lastname, setLastname] = useState("");
+  const [email, setEmail] = useState("");
+  const [position, setPosition] = useState("");
+  const [experience, setExperience] = useState("");
+  const [phone, setPhone] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  // const [attachment, setAttachment] = useState(null);
+
+  // const handleAttachmentChange = (event) => {
+  //   const file = event.target.files[0];
+  //   setAttachment(file);
+  // };
+  
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+  const handleLastnameChange = (event) => {
+    setLastname(event.target.value);
+  };
+  const handlePositionChange = (event) => {
+    setPosition(event.target.value);
+  };
+  const handleExperienceChange = (event) => {
+    setExperience(event.target.value);
+  };
+  const handleSubjectChange = (event) => {
+    setSubject(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handlePhoneNumberChange = (event) => {
+    setPhone(event.target.value);
+  };
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const user_captcha = document.getElementById("user_captcha_input").value;
+
+    if (validateCaptcha(user_captcha) === true) {
+      // Submit form data to backend API
+      const data = { name, email, phone, message,lastname,experience,position,subject };
+      
+     
+      const response = await fetch(
+        "https://fygemvi5g4.execute-api.us-east-1.amazonaws.com/Aidizitalcf/contactform",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
+
+      if (response) {
+        alert("Message sent successfully!");
+        // Clear form input fields and reload captcha
+        setName("");
+        setEmail("");
+        setPhone("");
+        setMessage("");
+        setLastname("");
+        setExperience("");
+        setPosition("");
+        setSubject("");
+        loadCaptchaEnginge(6);
+      } else {
+        alert(
+          "There was an error sending the message. Please try again later."
+        );
+        // Reload captcha
+        loadCaptchaEnginge(6);
+      }
+    } else {
+      alert("Captcha does not match. Please try again.");
+      // Reload captcha
+      loadCaptchaEnginge(6);
+    }
+  };
+
+  useEffect(() => {
+    loadCaptchaEnginge(6);
+  }, []);
+
   return (
     <div className="w-full min-h-screen bg-white  pt-32 md:px-8  flex flex-col gap-8">
       <div>
@@ -28,10 +129,9 @@ const Contactus = () => {
         <div className=" md:w-1/2 pl-20  bg-gray-100 rounded-sm">
           <div>
             <form
-              method="POST"
+              onSubmit={handleSubmit}
               className="contact_form "
-              action="sendEmail.php"
-              encType="multipart/form-data"
+              
             >
               <div className="form-group flex flex-col font-sans gap-4">
                 <div className=" form-group flex flex-col gap-4">
@@ -39,7 +139,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="firstname"
+                   
+                    value={name}
+                    onChange={handleNameChange}
                     required
                   />
                 </div>
@@ -48,7 +150,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="lastname"
+                  
+                    value={lastname}
+                    onChange={handleLastnameChange}
                     required
                   />
                 </div>
@@ -57,7 +161,9 @@ const Contactus = () => {
                   <input
                     type="email"
                     className="form-control w-2/3"
-                    name="email"
+                 
+                    value={email}
+                    onChange={handleEmailChange}
                     required
                   />
                 </div>
@@ -66,7 +172,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="position"
+                  
+                    value={position}
+                    onChange={handlePositionChange}
                     required
                   />
                 </div>
@@ -75,7 +183,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="experience"
+                 
+                    value={experience}
+                    onChange={handleExperienceChange}
                     required
                   />
                 </div>
@@ -84,7 +194,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="contact"
+                  
+                    value={phone}
+                    onChange={handlePhoneNumberChange}
                     required
                   />
                 </div>
@@ -93,7 +205,9 @@ const Contactus = () => {
                   <input
                     type="text"
                     className="form-control w-2/3"
-                    name="subject"
+                
+                    value={subject}
+                    onChange={handleSubjectChange}
                     required
                   />
                 </div>
@@ -101,15 +215,17 @@ const Contactus = () => {
                   <label>Description</label>
                   <textarea
                     className="form-control w-2/3"
-                    name="message"
+                  
+                    value={message}
+                    onChange={handleMessageChange}
                     required
-                    defaultValue={""}
+                    
                   />
                 </div>
-                <div className="form-group flex flex-col gap-4">
+                {/* <div className="form-group flex flex-col gap-4">
                   <label>Add Attachment:</label>
-                  <input type="file" name="attachment" />
-                </div>
+                  <input type="file" onChange={handleAttachmentChange} />
+                </div> */}
                 <div className="form-group">
                   <p>
                     We are committed to protecting and respecting your privacy,
@@ -122,7 +238,7 @@ const Contactus = () => {
                       <input
                         type="checkbox"
                         className="form-check-input"
-                        defaultValue
+                      
                       />
                       By clicking submit below, you consent to allow
                       AIDizital.com to store and process the personal
@@ -134,9 +250,21 @@ const Contactus = () => {
                     You can unsubscribe from these communications at any time
                   </p>
                 </div>
+                <div className="flex flex-col mt-2">
+                  <LoadCanvasTemplate />
+                </div>
+                <div className="flex flex-col mt-2">
+                <input
+    type="text"
+    id="user_captcha_input" // Add an id attribute here
+    required
+    className="form-control w-2/3"
+    placeholder="Enter Captcha Value"
+  />
+                </div>
                 <button
                   type="submit"
-                  name="send"
+                
                   className=" w-20 h-8 bg-[#17b1b1] border-[#17b1b1]"
                 >
                   Send
@@ -154,18 +282,26 @@ const Contactus = () => {
                   <p>Email : hrglobal@aidizital.com</p>
                   {/* <p>Phone : +44 00000</p> */}
                   <ul className="hidden md:flex text-black text-center justify-center ">
-          <li><GrMedium/></li>
-          <li><TfiFacebook/></li>
-          <li><FaLinkedinIn /></li>
-          <li><FaTwitter /></li>
-          </ul>
+                    <li>
+                      <GrMedium />
+                    </li>
+                    <li>
+                      <TfiFacebook />
+                    </li>
+                    <li>
+                      <FaLinkedinIn />
+                    </li>
+                    <li>
+                      <FaTwitter />
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
