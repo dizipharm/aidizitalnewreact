@@ -67,8 +67,9 @@ const Footer = () => {
     <p className="link link-hover">Hollenbeck Avenue, Sunnyvale,</p>
     <p className="link link-hover">California 94087</p>
     <p className="link link-hover font-bold">India</p>
-    <p className="link link-hover"> Telangana</p>
     <p className="link link-hover">Kushaiguda, 500062</p>
+    <p className="link link-hover"> Telangana</p>
+
 
   </div>
   

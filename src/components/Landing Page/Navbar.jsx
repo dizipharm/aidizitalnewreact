@@ -170,10 +170,10 @@ const Navbar = () => {
         
         </div>
      <div className="px-6 flex n items-center w-full h-full border-t border-gray-300">
-        <div className="flex items-center">
-          {/* <Link to='/'><img className=" h-8 " src={Logo} alt="/logo" /></Link> */}
+        {/* <div className="flex items-center">
+          <Link to='/'><img className=" h-8 " src={Logo} alt="/logo" /></Link>
           <h1 className=" lg:text-xl font-semibold font-serif mt-4 hover:border-b-2 hover:border-b-[#17b1b1] hover:text-[#17b1b1]"> <Link to='/'>AiDiZital</Link> </h1>
-        </div>
+        </div> */}
         <div className=" mr-12">
           <ul className="hidden md:flex text-black">
               
@@ -269,11 +269,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="md:hidden ml-40 mr-4" onClick={handleClick}>
+        <div className="md:hidden ml-60 mr-4" onClick={handleClick}>
           {!nav ? (
-            <AiOutlineMenu className="w-5 text-[#17b1b1]" />
+            <AiOutlineMenu className="w-5 justify-items-end text-[#17b1b1]" />
           ) : (
-            <AiOutlineClose className="w-5 text-[#17b1b1]" />
+            <AiOutlineClose className="w-5 justify-items-end text-[#17b1b1]" />
           )}
         </div>
       </div>
