@@ -67,9 +67,10 @@ const Ourapproach = () => {
                 </div>
               </div>
             </div>
-            <button type="button" className="bg-[#17b1b1] gap-4 w-60 flex border-[#17b1b1] p-2 text-white"  >
-             Connect with our experts <BsArrowRight className=' m-1 text-white'/>
-          </button>     </div>
+            {/* <button type="button" className="bg-[#17b1b1] gap-4 w-60 flex border-[#17b1b1] p-2 text-white"  > */}
+             {/* Connect with our experts <BsArrowRight Link to="/contact" className=' m-1 text-white'/> <Link/> */}
+          {/* </button>   */}
+             </div>
           </div>
        
         </div>

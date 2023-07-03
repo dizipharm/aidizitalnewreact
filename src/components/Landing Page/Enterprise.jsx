@@ -29,9 +29,10 @@ const Enterprise = () => {
           <p className=" text-lg">
           Unlocking the value of blockchain beyond bitcoin and cryptocurrency.We help our customers create enterprise blockchain solutions from scratch, in creating a powerful architectural technology with the potential to impact enterprise and B2B ecosystems as much as the internet and cloud, as well as integrate enterprise IT ecosystems to external blockchains.
           </p>
-          <button type="button" className="bg-[#17b1b1] w-60 gap-4 justify-between flex border-[#17b1b1] p-2 text-white"  >
+          
+          {/* <button type="button" className="bg-[#17b1b1] w-60 gap-4 justify-between flex border-[#17b1b1] p-2 text-white"  >
               Talk To Our Experts  <BsArrowRight className=' m-1 text-white'/>
-          </button>    
+          </button>     */}
               </div>
       </div>
       </div>
