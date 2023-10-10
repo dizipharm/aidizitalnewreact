@@ -50,22 +50,24 @@ const Footer = () => {
     <a className="link link-hover">Development</a> 
 
   </div> 
-  <div className='  text-black'>
-    <span className="footer-title text-gray-800"> &nbsp;</span> 
-    <Link to='/about' className="link link-hover">About Us</Link> 
-    <Link to='/team' className="link link-hover">Team</Link> 
-    <Link to='/contact' className="link link-hover">Contact Us</Link>
-  </div>
+ 
    <div className='  text-black'>
-    <span className="footer-title text-gray-800">Find Us</span> 
+    <span className="footer-title text-gray-800">FIND US </span> 
     <p className="link link-hover font-bold">UK</p> 
     <p className="link link-hover">01753701021</p> 
     <p className="link link-hover">268 Bath Road, Slough,</p> 
     <p className="link link-hover">London, SL14DX</p>
-    <p className="link link-hover"></p>
-    <p className="link link-hover font-bold">North America</p>
+  </div>
+  <div className='  text-black'>
+    <span className="footer-title text-gray-800">&nbsp;</span> 
+       <p className="link link-hover font-bold">North America</p>
     <p className="link link-hover">Hollenbeck Avenue, Sunnyvale,</p>
     <p className="link link-hover">California 94087</p>
+   
+  </div>
+  <div className='  text-black'>
+    <span className="footer-title text-gray-800">&nbsp;</span> 
+   
     <p className="link link-hover font-bold">India</p>
     <p className="link link-hover">Kushaiguda, 500062</p>
     <p className="link link-hover"> Telangana</p>
