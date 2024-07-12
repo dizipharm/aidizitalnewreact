@@ -1,6 +1,6 @@
 import React from 'react'
 import Tcube from '../../assets/Newlogo.png'
-import Onesg from '../../assets/onesg_logo.png'
+import Onesg from '../../assets/Acuvis.png'
 import Trace from '../../assets/tracepharm.jpg'
 import {Link} from 'react-router-dom'
 import {
@@ -40,11 +40,11 @@ const Partners = () => {
         </button></Link>
        </div>
        <div className=' flex flex-col gap-2 '>
-       <Link to='https://www.onesg.ai/' > <img className=' w-60 h-16' src={Onesg}alt='onrsg'/></Link>
-<p className=' text-left'>SaaS Platform built for construction companies, clients, architects and building suppliers to track all ESG assets to support UN sustainability net zero goals for 2050
+       <Link to='https://acuvis.ai/' > <img className=' w-60 h-12' src={Onesg}alt='onrsg'/></Link>
+<p className=' text-left mt-4'>SaaS Platform built for construction companies, clients, architects and building suppliers to track all ESG assets to support UN sustainability net zero goals for 2050
 
 </p>
-<Link to='https://www.onesg.ai/' className=' lg:pt-12 sm:pt-1'>
+<Link to='https://acuvis.ai/' className=' lg:pt-12 sm:pt-1'>
           <button type="button" className="bg-[#17b1b1] gap-4 flex border-[#17b1b1] p-2 text-white  ">
             Know More  <BsArrowRight className=' ml-4 mt-1'/>
         </button></Link>
